@@ -1,4 +1,3 @@
-
 import pygame
 from random import randint
 
@@ -154,7 +153,6 @@ class Player:
             global gameplay
             gameplay = False
             objects.remove(self)
-            print(self.color, 'dead')
 
 
 class Bullet:
